@@ -6,6 +6,9 @@ import dotenv from "dotenv";
 dotenv.config();
 const apiKey = process.env.OPENAI_API_KEY;
 
+// Create or clear the resumed_cli.jsonl file
+fs.writeFileSync("./resumed_cli.jsonl", "");
+
 import { createOpenAI } from "@ai-sdk/openai";
 
 const openai = createOpenAI({
@@ -79,6 +82,7 @@ const ajaxQuestions = [
 
 const allQuestions = [...lisaQuestions, ...travisQuestions, ...ajaxQuestions];
 
+// You can adjust the number of questions to process here
 const sampleQuestions = allQuestions.slice(0, 2);
 
 const packageCodeAndDocs = fs.readFileSync(
@@ -116,4 +120,13 @@ for (const question of sampleQuestions) {
   console.log("========");
   console.log("========");
   console.log("========");
+
+  // Write to the resumed_cli.jsonl file
+  const jsonlEntry = {
+    instruction: question,
+    input: "",
+    output: output,
+  };
+
+  fs.appendFileSync("./resumed_cli.jsonl", JSON.stringify(jsonlEntry) + "\n");
 }
