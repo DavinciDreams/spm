@@ -1,0 +1,3 @@
+{"instruction": "What fields are required in a JSON Resume?", "input": "", "output": "The required field in a JSON Resume is 'basics', which must include 'name'. All other fields like 'work', 'education', 'skills', etc., are optional."}
+{"instruction": "Validate this resume against the JSON Resume schema.", "input": "{\"basics\": {\"name\": \"John Doe\"}}", "output": "This resume is valid according to the JSON Resume schema. It includes the required 'basics' object with a 'name' field."}
+{"instruction": "Validate this resume against the JSON Resume schema.", "input": "{\"work\": [{\"name\": \"TechCorp\"}]}", "output": "This resume is invalid. It lacks the required 'basics' object with a 'name' field."}
