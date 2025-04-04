@@ -83,7 +83,7 @@ const ajaxQuestions = [
 const allQuestions = [...lisaQuestions, ...travisQuestions, ...ajaxQuestions];
 
 // You can adjust the number of questions to process here
-const sampleQuestions = allQuestions.slice(0, 2);
+const sampleQuestions = allQuestions; //.slice(0, 2);
 
 const packageCodeAndDocs = fs.readFileSync(
   "./jsonresume_repo_dump.md",
