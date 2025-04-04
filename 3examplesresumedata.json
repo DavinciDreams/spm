@@ -1,0 +1,175 @@
+[
+    {
+      "basics": {
+        "name": "Alexandra Nguyen",
+        "label": "Software Engineer",
+        "email": "alex.nguyen@example.com",
+        "phone": "(415) 555-1234",
+        "url": "https://alexnguyen.dev",
+        "summary": "Passionate software engineer with 5+ years of experience in full-stack development, specializing in scalable web applications.",
+        "location": {
+          "city": "San Francisco",
+          "countryCode": "US",
+          "region": "California"
+        },
+        "profiles": [
+          {
+            "network": "GitHub",
+            "username": "alexnguyen",
+            "url": "https://github.com/alexnguyen"
+          },
+          {
+            "network": "LinkedIn",
+            "username": "alex-nguyen",
+            "url": "https://linkedin.com/in/alex-nguyen"
+          }
+        ]
+      },
+      "work": [
+        {
+          "name": "TechCorp",
+          "position": "Senior Software Engineer",
+          "url": "https://techcorp.com",
+          "startDate": "2020-03-01",
+          "endDate": "2025-04-01",
+          "summary": "Led a team of 4 developers to build a cloud-based SaaS platform, increasing user retention by 30%.",
+          "highlights": [
+            "Implemented microservices architecture using Node.js and Kubernetes.",
+            "Reduced API latency by 25% through caching optimizations."
+          ]
+        },
+        {
+          "name": "StartupX",
+          "position": "Junior Developer",
+          "startDate": "2018-06-01",
+          "endDate": "2020-02-28",
+          "summary": "Developed front-end features for a customer-facing web app using React."
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of California, Berkeley",
+          "area": "Computer Science",
+          "studyType": "B.S.",
+          "startDate": "2014-09-01",
+          "endDate": "2018-05-15",
+          "gpa": "3.8"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Programming",
+          "level": "Expert",
+          "keywords": ["JavaScript", "Python", "TypeScript"]
+        },
+        {
+          "name": "DevOps",
+          "level": "Intermediate",
+          "keywords": ["Docker", "AWS"]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Portfolio Site",
+          "description": "A personal portfolio built with Next.js and hosted on Vercel.",
+          "url": "https://alexnguyen.dev",
+          "keywords": ["Next.js", "React", "TailwindCSS"],
+          "startDate": "2023-01-10",
+          "endDate": "2023-02-15"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "James Carter",
+        "label": "Graphic Designer",
+        "email": "james.carter@example.com",
+        "summary": "Creative graphic designer with a focus on branding and digital illustration.",
+        "location": {
+          "city": "London",
+          "countryCode": "UK"
+        },
+        "profiles": [
+          {
+            "network": "Behance",
+            "username": "jamescarterdesign",
+            "url": "https://behance.net/jamescarterdesign"
+          }
+        ]
+      },
+      "work": [
+        {
+          "name": "DesignStudio",
+          "position": "Lead Designer",
+          "startDate": "2019-08-01",
+          "endDate": "2025-04-01",
+          "summary": "Designed branding materials for 50+ clients, including logos and marketing collateral."
+        }
+      ],
+      "education": [
+        {
+          "institution": "Royal College of Art",
+          "area": "Graphic Design",
+          "studyType": "M.A.",
+          "startDate": "2016-09-01",
+          "endDate": "2018-07-01"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Design Tools",
+          "keywords": ["Adobe Photoshop", "Illustrator", "Figma"]
+        }
+      ],
+      "awards": [
+        {
+          "title": "Best Brand Identity",
+          "date": "2022-11-10",
+          "awarder": "London Design Awards",
+          "summary": "Recognized for innovative branding for a tech startup."
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Priya Patel",
+        "label": "Data Analyst",
+        "email": "priya.patel@example.com",
+        "phone": "(647) 555-9876",
+        "summary": "Entry-level data analyst skilled in statistical analysis and data visualization.",
+        "location": {
+          "city": "Toronto",
+          "countryCode": "CA"
+        }
+      },
+      "work": [
+        {
+          "name": "Analytics Inc.",
+          "position": "Data Analyst Intern",
+          "startDate": "2024-06-01",
+          "endDate": "2024-12-01",
+          "summary": "Analyzed customer data to identify trends, presenting findings to stakeholders.",
+          "highlights": [
+            "Built dashboards in Tableau to track KPIs.",
+            "Automated data cleaning processes with Python."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Toronto",
+          "area": "Statistics",
+          "studyType": "B.Sc.",
+          "startDate": "2020-09-01",
+          "endDate": "2024-05-01",
+          "gpa": "3.9"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Data Analysis",
+          "keywords": ["Python", "SQL", "Tableau"]
+        }
+      ]
+    }
+  ]
