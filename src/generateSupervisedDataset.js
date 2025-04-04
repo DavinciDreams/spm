@@ -1,7 +1,9 @@
 import fs from "fs";
 import { jsonl } from "js-jsonl";
 import { generateText } from "ai";
+import dotenv from "dotenv";
 
+dotenv.config();
 const apiKey = process.env.OPENAI_API_KEY;
 
 import { createOpenAI } from "@ai-sdk/openai";
@@ -98,8 +100,20 @@ for (const question of sampleQuestions) {
 `;
 
   const result = await generateText({
-    model: openai,
+    model: openai.responses("gpt-4o"),
     prompt: prompt,
   });
-  console.log(result);
+
+  const output = result.text;
+
+  console.log(question);
+  console.log("---");
+  console.log(output);
+  console.log("========");
+  console.log("========");
+  console.log("========");
+  console.log("========");
+  console.log("========");
+  console.log("========");
+  console.log("========");
 }
