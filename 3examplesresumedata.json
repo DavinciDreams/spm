@@ -1,175 +1,273 @@
 [
-    {
-      "basics": {
-        "name": "Alexandra Nguyen",
-        "label": "Software Engineer",
-        "email": "alex.nguyen@example.com",
-        "phone": "(415) 555-1234",
-        "url": "https://alexnguyen.dev",
-        "summary": "Passionate software engineer with 5+ years of experience in full-stack development, specializing in scalable web applications.",
-        "location": {
-          "city": "San Francisco",
-          "countryCode": "US",
-          "region": "California"
-        },
-        "profiles": [
-          {
-            "network": "GitHub",
-            "username": "alexnguyen",
-            "url": "https://github.com/alexnguyen"
-          },
-          {
-            "network": "LinkedIn",
-            "username": "alex-nguyen",
-            "url": "https://linkedin.com/in/alex-nguyen"
-          }
-        ]
+  {
+    "meta": {
+      "theme": "Professional"
+    },
+    "basics": {
+      "name": "Traves Theberge",
+      "image": "https://avatars.githubusercontent.com/u/26759760?v=4",
+      "email": "Traves.Theberge@gmail.com",
+      "phone": "587-889-6279",
+      "url": "https://nextjs-blog-traves.vercel.app/",
+      "summary": "I am a systems professional with over a decade of experience in automation, control systems design, installation, programming, and technical project management. My expertise lies in optimizing system performance, ensuring compliance with industry standards, and utilizing advanced technologies to enhance operational efficiency.",
+      "location": {
+        "city": "Bonaventure",
+        "countryCode": "Quebec",
+        "region": "Canada"
       },
-      "work": [
+      "profiles": [
         {
-          "name": "TechCorp",
-          "position": "Senior Software Engineer",
-          "url": "https://techcorp.com",
-          "startDate": "2020-03-01",
-          "endDate": "2025-04-01",
-          "summary": "Led a team of 4 developers to build a cloud-based SaaS platform, increasing user retention by 30%.",
-          "highlights": [
-            "Implemented microservices architecture using Node.js and Kubernetes.",
-            "Reduced API latency by 25% through caching optimizations."
-          ]
-        },
-        {
-          "name": "StartupX",
-          "position": "Junior Developer",
-          "startDate": "2018-06-01",
-          "endDate": "2020-02-28",
-          "summary": "Developed front-end features for a customer-facing web app using React."
-        }
-      ],
-      "education": [
-        {
-          "institution": "University of California, Berkeley",
-          "area": "Computer Science",
-          "studyType": "B.S.",
-          "startDate": "2014-09-01",
-          "endDate": "2018-05-15",
-          "gpa": "3.8"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Programming",
-          "level": "Expert",
-          "keywords": ["JavaScript", "Python", "TypeScript"]
-        },
-        {
-          "name": "DevOps",
-          "level": "Intermediate",
-          "keywords": ["Docker", "AWS"]
-        }
-      ],
-      "projects": [
-        {
-          "name": "Portfolio Site",
-          "description": "A personal portfolio built with Next.js and hosted on Vercel.",
-          "url": "https://alexnguyen.dev",
-          "keywords": ["Next.js", "React", "TailwindCSS"],
-          "startDate": "2023-01-10",
-          "endDate": "2023-02-15"
+          "network": "Linkedin",
+          "username": "Traves Theberge",
+          "url": "https://www.linkedin.com/in/traves-theberge"
         }
       ]
     },
-    {
-      "basics": {
-        "name": "James Carter",
-        "label": "Graphic Designer",
-        "email": "james.carter@example.com",
-        "summary": "Creative graphic designer with a focus on branding and digital illustration.",
-        "location": {
-          "city": "London",
-          "countryCode": "UK"
-        },
-        "profiles": [
-          {
-            "network": "Behance",
-            "username": "jamescarterdesign",
-            "url": "https://behance.net/jamescarterdesign"
-          }
+    "work": [
+      {
+        "name": "Consultant",
+        "position": "Prompt Engineer (Remote)",
+        "url": "https://nextjs-blog-traves.vercel.app/posts",
+        "startDate": "2024-02-02",
+        "endDate": "2024-08-08",
+        "summary": "Working in crafting and refining prompts for AI models to achieve precise and contextually aware responses.",
+        "highlights": [
+          "Prompt Engineering: Developing advanced AI-driven applications by integrating large language models (LLMs) into dynamic systems for enhanced user interactions and decision-making processes.",
+          "Systems Integration: Successfully integrated AI technologies into existing systems, focusing on seamless communication between different components.",
+          "Real-time Communication and Automation: Engineered solutions for real-time communication and automation, enhancing user engagement and ensuring secure and efficient data management and user authentication across various platforms."
         ]
       },
-      "work": [
-        {
-          "name": "DesignStudio",
-          "position": "Lead Designer",
-          "startDate": "2019-08-01",
-          "endDate": "2025-04-01",
-          "summary": "Designed branding materials for 50+ clients, including logos and marketing collateral."
-        }
-      ],
-      "education": [
-        {
-          "institution": "Royal College of Art",
-          "area": "Graphic Design",
-          "studyType": "M.A.",
-          "startDate": "2016-09-01",
-          "endDate": "2018-07-01"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Design Tools",
-          "keywords": ["Adobe Photoshop", "Illustrator", "Figma"]
-        }
-      ],
-      "awards": [
-        {
-          "title": "Best Brand Identity",
-          "date": "2022-11-10",
-          "awarder": "London Design Awards",
-          "summary": "Recognized for innovative branding for a tech startup."
-        }
-      ]
-    },
-    {
-      "basics": {
-        "name": "Priya Patel",
-        "label": "Data Analyst",
-        "email": "priya.patel@example.com",
-        "phone": "(647) 555-9876",
-        "summary": "Entry-level data analyst skilled in statistical analysis and data visualization.",
-        "location": {
-          "city": "Toronto",
-          "countryCode": "CA"
-        }
+      {
+        "name": "Indigenous and Trades Careers Liaison (Hybrid)",
+        "position": "Indigenous and Trades Careers Liaison",
+        "url": "https://tepf.ca",
+        "startDate": "2023-01-01",
+        "endDate": "2024-02-01",
+        "summary": "Developed and managed the Indigenous Trades Careers program, providing hands-on learning and mentorship for Indigenous individuals in skilled trades.",
+        "highlights": [
+          "Program Development & Management: Developed and managed the Indigenous Trades Careers program, providing hands-on learning and mentorship for Indigenous individuals in skilled trades.",
+          "Participant Engagement: Recruited and supported participants, offering personalized career advice in trades such as carpentry, culinary arts, and electrical work.",
+          "Training Coordination: Organized training programs with industry experts, ensuring practical skills and certifications in culturally sensitive environments.",
+          "Career Pathway Exploration: Created resources to help participants identify trade career paths and connected them with mentors.",
+          "Cultural Integration: Integrated Indigenous cultural heritage into the program, fostering community engagement and development.",
+          "Community Collaboration: Established partnerships with Indigenous communities and organizations to support internships, apprenticeships, and workshops.",
+          "Impact Tracking & Reporting: Tracked and reported participant progress, providing insights for continuous program improvement."
+        ]
       },
-      "work": [
-        {
-          "name": "Analytics Inc.",
-          "position": "Data Analyst Intern",
-          "startDate": "2024-06-01",
-          "endDate": "2024-12-01",
-          "summary": "Analyzed customer data to identify trends, presenting findings to stakeholders.",
-          "highlights": [
-            "Built dashboards in Tableau to track KPIs.",
-            "Automated data cleaning processes with Python."
-          ]
-        }
-      ],
-      "education": [
-        {
-          "institution": "University of Toronto",
-          "area": "Statistics",
-          "studyType": "B.Sc.",
-          "startDate": "2020-09-01",
-          "endDate": "2024-05-01",
-          "gpa": "3.9"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Data Analysis",
-          "keywords": ["Python", "SQL", "Tableau"]
-        }
-      ]
-    }
-  ]
+      {
+        "name": "Saik'uz First Nation",
+        "position": "Project/Program Manager (On-site)",
+        "url": "https://saikuz.com",
+        "startDate": "2020-01-01",
+        "endDate": "2022-12-31",
+        "summary": "Led cultural programming and language revitalization initiatives to preserve the Dakelh language through educational projects, digital media, and community-driven cultural programs.",
+        "highlights": [
+          "Cultural Programming & Language Revitalization: Led initiatives to preserve the Dakelh language through educational projects, digital media, and community-driven cultural programs.",
+          "Archive Digitization & IT Support: Digitized language archives, converting tapes and documents into digital formats using DAWs and video editing tools. Provided IT support, troubleshooting, and system installations to enhance community tech infrastructure.",
+          "Collaboration with Elders: Partnered with elders on language transcription, translation, and recording projects for the First Voices initiative, preserving oral histories and traditional knowledge.",
+          "Educational Programs & Digital Storytelling: Developed programs integrating language learning with technology. Introduced 3D modeling in Minecraft to teach cultural storytelling, providing students with laptops and training.",
+          "A/V Systems Installation: Designed and installed advanced audio/visual systems for community events and council meetings.",
+          "Music & Video Production: Led production of traditional music and video content, applying expertise in sound mixing, mastering, and video editing.",
+          "Grant & Technical Management: Secured and managed grants for language preservation and technology projects, ensuring compliance and effective resource use.",
+          "Community Knowledge Holder and First Nations Liaison: Acted as a cultural and technological liaison, acting as a liaison between Saik'uz First Nation and external partnerships."
+        ]
+      },
+      {
+        "name": "Fire Alarm Engineer",
+        "position": "Control System Consultant",
+        "url": "https://firealarmengineer.com",
+        "startDate": "2014-01-01",
+        "endDate": "2015-01-01",
+        "summary": "Led the verification of complex fire alarm and control systems across various projects, ensuring strict adherence to industry standards such as ULC and NFPA.",
+        "highlights": [
+          "Control Systems Verification: Led the verification of complex fire alarm and control systems across various projects, ensuring strict adherence to industry standards such as ULC and NFPA.",
+          "Design and Documentation: Developed detailed designs for control and automation systems using AutoCAD, incorporating regulatory requirements and industry best practices.",
+          "System Testing and Validation: Conducted thorough testing and validation of fire alarm systems, including functional testing, performance assessment, and compliance checks.",
+          "Project Oversight: Provided expert oversight during the implementation of control systems, ensuring that installations were completed according to design specifications and industry standards.",
+          "Multidisciplinary Coordination: Collaborated with engineers, contractors, and other stakeholders to facilitate seamless integration of fire alarm systems with other building control systems.",
+          "Client Consultation and Support: Acted as a primary point of contact for clients, offering technical guidance and support throughout the project lifecycle."
+        ]
+      },
+      {
+        "name": "Britton & Associates",
+        "position": "Control System Consultant",
+        "url": "https://brittonassociates.com",
+        "startDate": "2011-01-01",
+        "endDate": "2012-01-01",
+        "summary": "Provided consulting services for control systems, specializing in the design and verification of automation and fire alarm systems.",
+        "highlights": []
+      },
+      {
+        "name": "F & G Controls",
+        "position": "Lead Project and Service Technician",
+        "url": "https://fgcontrols.com",
+        "startDate": "2010-06-01",
+        "endDate": "2020-01-01",
+        "summary": "Directed automation and control system projects, specialized in system design and integration, led installation and maintenance, built client relations, mentored technicians, and enforced quality assurance protocols.",
+        "highlights": [
+          "Project Leadership & Management: Directed over 50 automation and control system projects from design to final verification, consistently meeting deadlines and budget requirements.",
+          "System Design & Integration: Specialized in creating custom control and security systems using AutoCAD, integrating automation systems to enhance performance.",
+          "Installation, Commissioning & Maintenance: Led the installation, commissioning, and maintenance of control systems, ensuring full compliance with industry standards and delivering reliable troubleshooting and repair services.",
+          "Client Relations & Team Leadership: Built strong client relationships through clear communication and responsive support. Managed and mentored a team of technicians, improving productivity through effective training.",
+          "Quality Assurance & Compliance: Enforced rigorous quality assurance protocols, ensuring all systems adhered to building codes and industry regulations."
+        ]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Saik'uz Fire Department",
+        "position": "Firefighter (Volunteer)",
+        "url": "https://saikuz.com/",
+        "startDate": "2020-01-01",
+        "endDate": "2022-12-31",
+        "summary": "Served as a volunteer firefighter, providing critical support in emergency response, fire prevention, and community education.",
+        "highlights": [
+          "Junior Engine and Pump Operator: Operated and maintained fire engines and pumps during emergency response operations, ensuring that all equipment was in optimal working condition.",
+          "Fire Prevention: Actively participated in fire prevention initiatives, including conducting regular safety inspections and educating the community on fire safety practices.",
+          "First Aid: Provided first aid and emergency medical assistance during fire incidents and other emergencies. Trained in basic life support techniques, including CPR.",
+          "Site Reporting: Assisted in the documentation and reporting of fire incidents, including compiling detailed reports on fire incidents, response times, and outcomes.",
+          "FNESS 2022 Indigenous Firefighters Championship - First Place: Played a key role in winning first place at the FNESS 2022 Indigenous Firefighters Championship."
+        ]
+      }
+    ],
+    "certificates": [
+      {
+        "name": "University of Northern British Columbia (UNBC)",
+        "url": "https://www.unbc.ca/",
+        "studyType": "Certificate Program",
+        "date": "2020-01-01",
+        "endDate": "2022-12-31",
+        "courses": [
+          "Navigating Conflict Certificate",
+          "Planning, Decision Making, and Problem Solving Certificate",
+          "Dakelh Language Certificate",
+          "Respectful Communication Certificate"
+        ]
+      },
+      {
+        "name": "Concord Community High School",
+        "url": "https://www.concord.k12.in.us/",
+        "area": "High School Diploma",
+        "studyType": "Diploma",
+        "startDate": "2008-01-01",
+        "date": "2010-12-31"
+      },
+      {
+        "name": "Honeywell & Siemens Control System Programming & Installation",
+        "date": "2011-02-02",
+        "issuer": "Honeywell & Siemens",
+        "url": "https://siemens.com"
+      },
+      {
+        "name": "ULC Verification Certificate",
+        "date": "2011-02-02",
+        "issuer": "Underwriters Laboratory Canada",
+        "url": "https://ulc.ca"
+      },
+      {
+        "name": "CFAA Certificate (Student)",
+        "date": "2011-02-02",
+        "issuer": "Canadian Fire Alarm Association",
+        "url": "https://cfaa.ca"
+      },
+      {
+        "name": "Respectful Communication Certificate",
+        "date": "2021-11-07",
+        "issuer": "University of Northern British Columbia (UNBC)",
+        "url": "https://www.unbc.ca"
+      },
+      {
+        "name": "Navigating Conflict Certificate",
+        "date": "2021-11-07",
+        "issuer": "University of Northern British Columbia (UNBC)",
+        "url": "https://www.unbc.ca"
+      },
+      {
+        "name": "Planning, Decision Making, and Problem Solving Certificate",
+        "date": "2021-11-07",
+        "issuer": "University of Northern British Columbia (UNBC)",
+        "url": "https://www.unbc.ca"
+      },
+      {
+        "name": "Dakelh Language Certificate",
+        "date": "2021-11-07",
+        "issuer": "University of Northern British Columbia (UNBC)",
+        "url": "https://www.unbc.ca"
+      },
+      {
+        "name": "First Aid, S100 Fire Suppression, S185 Entrapment Awareness, WHMIS, TDF Awareness",
+        "date": "2022-01-01",
+        "issuer": "Various"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Prompt Engineering & AI Integration",
+        "level": "Proficient",
+        "keywords": ["AI Models", "Prompt Design", "System Integration"]
+      },
+      {
+        "name": "Web and Software Development",
+        "level": "Proficient",
+        "keywords": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Node.js",
+          "Python"
+        ]
+      },
+      {
+        "name": "Control Systems Design & Implementation",
+        "level": "Expert",
+        "keywords": ["Automation", "Control Systems", "System Integration"]
+      },
+      {
+        "name": "Project Management",
+        "level": "Expert",
+        "keywords": [
+          "Project Planning",
+          "Team Leadership",
+          "Program Development"
+        ]
+      },
+      {
+        "name": "Technology Integration & IT Support",
+        "level": "Expert",
+        "keywords": ["System Design", "IT Support", "Technology Integration"]
+      },
+      {
+        "name": "Digital Content Creation & Digitization",
+        "level": "Expert",
+        "keywords": ["Content Creation", "Digitization", "Digital Media"]
+      },
+      {
+        "name": "Community Engagement & Liaising",
+        "level": "Expert",
+        "keywords": ["Community Programs", "Liaison", "Cultural Integration"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native Speaker"
+      },
+      {
+        "language": "Dakelh",
+        "fluency": "Basic Proficiency"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Music",
+        "keywords": ["Singing", "Song Writing."]
+      }
+    ],
+    "references": [
+      {
+        "reference": "Available upon request"
+      }
+    ]
+  }
+]
