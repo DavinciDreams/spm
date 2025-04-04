@@ -1,13 +1,25 @@
 import fs from "fs";
+import { jsonl } from "js-jsonl";
+import { generateText } from "ai";
 
-let lisaQuestions = fs.readFileSync("../new_cli_questions.jsonl", "utf-8");
+const apiKey = process.env.OPENAI_API_KEY;
 
-const packageCodeAndDocs = fs.readFileSync(
-  "../jsonresume_repo_dump.md",
-  "utf-8"
-);
+import { createOpenAI } from "@ai-sdk/openai";
 
-const ajaxQustions = [
+const openai = createOpenAI({
+  apiKey,
+});
+
+let lisaQuestions = fs.readFileSync("./new_cli_questions.jsonl", "utf-8");
+let travisQuestions = fs.readFileSync("./dataset_Trave.jsonl", "utf-8");
+
+lisaQuestions = jsonl.parse(lisaQuestions);
+travisQuestions = jsonl.parse(travisQuestions);
+
+lisaQuestions = lisaQuestions.map((q) => q.instruction);
+travisQuestions = travisQuestions.map((q) => q.instruction);
+
+const ajaxQuestions = [
   "What commands does the Resumed CLI expose, and what are their options?",
   "How does the 'render' command resolve which theme to use?",
   "What happens if the theme specified via --theme or .meta.theme cannot be loaded?",
@@ -62,3 +74,32 @@ const ajaxQustions = [
   "What commands does Resumed support?",
   "How do I render a resume with a custom theme?",
 ];
+
+const allQuestions = [...lisaQuestions, ...travisQuestions, ...ajaxQuestions];
+
+const sampleQuestions = allQuestions.slice(0, 2);
+
+const packageCodeAndDocs = fs.readFileSync(
+  "./jsonresume_repo_dump.md",
+  "utf-8"
+);
+
+// loop over samplequestions and output the prompt
+for (const question of sampleQuestions) {
+  const prompt = `
+  You are an expert in software packages, below you will see an entire codebase, code, examples, test, and documentation. Someone is about to ask about the codebase. Only offer questions in the codebase, don't offer guesses, if it is not in the codebase, tell the user you don't know.
+
+  This is the codebase documentation and code:
+  ${packageCodeAndDocs}
+
+  This is the user question:
+  ${question}
+
+`;
+
+  const result = await generateText({
+    model: openai,
+    prompt: prompt,
+  });
+  console.log(result);
+}
