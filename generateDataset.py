@@ -51,7 +51,13 @@ chatGPTDeepResearchQuestions = [
     "If the resume file contains invalid Unicode, what would be the failure path in the CLI?",
     "How could an agent use Resumed to generate resumes from a GraphQL resume builder frontend?",
     "Is Resumed capable of running in Deno, and what changes would be required if not?",
-    "What is the smallest set of files necessary to render a resume with a custom theme?"
+    "What is the smallest set of files necessary to render a resume with a custom theme?",
+    "What is Resumed?",
+    "How do I install Resumed?",
+    "What commands does Resumed support?",
+    "How do I render a resume with a custom theme?",
+    
+
 ]
 
 
@@ -81,5 +87,4 @@ for question in questions:
 
     dataset.append({"question": question, "answer": output["generated_text"]})
 
-return dataset
-
+dataset.push_to_hub("ajaxdavis/lisa-spm")
