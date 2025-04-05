@@ -1,2 +1,2 @@
-# spm-jsonresume
-software package model for json resume
+# spm
+Small Package Model is a method for creating micro llms trained to be an expert on a single software project. The goal is to generate fine tuned models that are so small they can be saved as a package, loaded as a dependency, and run locally. The advantage of this method is that the model can give accurate and up to date information on the particular code being run without needing external tools, it stays up to date with latest changes and understands the specific implementation only, reducing the tendency to hallucinate or reference deprecated or non-existant functions.
